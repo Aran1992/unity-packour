@@ -228,10 +228,10 @@ GameObject:
   m_Component:
   - component: {fileID: 725797641}
   - component: {fileID: 725797640}
-  - component: {fileID: 725797639}
   - component: {fileID: 725797643}
   - component: {fileID: 725797642}
   - component: {fileID: 725797644}
+  - component: {fileID: 725797639}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -249,7 +249,7 @@ Animator:
   m_GameObject: {fileID: 725797638}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 280c87039a4297342b40dcf7d5e1c72e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 71fdec2e69f35d54eba7462c5103d4f3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -357,7 +357,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &725797644
 MonoBehaviour:
@@ -371,6 +371,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be25b0d6e9b1f044802534c2cd4b08a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vecocity: 2
+  jumpForce: 300
 --- !u!1001 &1739191809966901791
 PrefabInstance:
   m_ObjectHideFlags: 0
